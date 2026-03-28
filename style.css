@@ -1,0 +1,114 @@
+body {
+    background-color: #F1F1EC;
+}
+
+h1, h2 {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.big-header {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 1px;
+    color: #D9D9D9;
+ } 
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1px;
+}
+
+.p1 {
+    margin: 20px;
+}
+
+.main-header {
+  height: 40px;
+  width: 98%;
+  border: 5px solid #253054;
+  border-radius: 20px;
+  padding: 5px;
+  background-color: #253054;
+}
+
+.rounded-image {
+    border-radius: 40px;
+    max-width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 40vh;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    border-radius: 40px;
+}
+
+.flex-right {
+  width: 65%;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border: 2px solid #84977D;
+  background-color: #84977D;
+  border-radius: 40px;
+}
+img {
+  width: 75%;
+  height: auto;
+}
+
+hr.custom-divider {
+  border: none; 
+  border-top: 3px solid #333; 
+  margin: 20px 0; 
+  width: 50%; 
+  margin-left: auto; 
+  margin-right: auto;
+ 
+}
+
+.container2{
+    display: flex;
+}
+
+.box1, .box2, .box3, .box4, .box5 {
+    width: 20%;
+    height: 150px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #D9D9D9;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    text-align: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-image2 {
+    border-radius: 15px;
+    max-width: 55%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rounded-image3 {
+   border-radius: 15px;
+    max-width: 85%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
