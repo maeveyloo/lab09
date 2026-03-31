@@ -110,22 +110,22 @@ hr.custom-divider {
     border-radius: 20px;
     background-color: #D9D9D9;
     text-align: center;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .rounded-image2 {
     border-radius: 15px;
-    max-width: 55%;
-    height: auto;
+    height: 15vh;
+    width: auto;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
 .rounded-image3 {
    border-radius: 15px;
-    max-width: 85%;
+    width: 15vh;
     height: auto;
     margin-top: 5px;
     margin-bottom: 5px; 
