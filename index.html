@@ -1,28 +1,43 @@
+<!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
+  
   <title>Maeve Voelker's Bio</title>
 </head>
 <body>
+
+<div class = "linear"></div>
+<div class = "transparent"></div>
+ 
 <div class = "main-header">
     <h1 class ="big-header">Maeve's Bio</h1>
 </div>
     <div class = "p1">
-        <p>My focus in the major is visual design, and my hobbies tend to reflect this interest 
-        in the visual arts. I enjoy drawing and knitting in my free-time. I also like to play games! 
-        Below is a photo of the sweater I'm currently working on.
+        <p>My focus in the major is visual design, and my hobbies tend to reflect this interest in the visual arts. I enjoy drawing and knitting in my free-time. I also like to play games! Below are photos of two of my in-progress projects and my most recently finished sweater.
         </p>
     </div>
 
-<div class = "flex-container">
-    <div class = "flex-left">        
-        <img class = "rounded-image" src="sweaterphoto.jpeg" alt="Picture of partially-made sweater.">
+<!-- images -->
+
+<div class = "sweater-images">
+    <img class = "rounded-image" src="dagmar.jpeg" alt= "Picture of a partially-made Dagmar Zipper Sweater.">
+    <img class = "rounded-image" src="moby.png" alt= "Picture of partially-made Moby Sweater.">  
+    <img class = "rounded-image" src="porcelain.png" alt= "Picture of completed Porcelain Sweater.">
+</div>
+
+
+<!-- first section -->
+
+ <div class = "flex-container">
+    <div class = "flex-left"> 
+      <h2 class = "header">About Yarn Choices</h2> 
+            <p class = "p2">When I first started knitting, I spent a lot of time researching
+            and learning about fiber choice. Since then, through making various projects and 
+            trying different types, I've learned more about my preferences and why I like them.</p> 
     </div> 
     <div class = "flex-right">       
-        <h2>About Yarn Choices</h2> 
-            <p>When I first started knitting, I spent a lot of time researching
-            and learning about fiber choice. Since then, through making various projects and 
-            trying different types, I've learned more about my preferences and why I like them.</p>
+       
    <h2>How I Find and Rank Yarn</h2>
         <p>I try to take into account price, fiber content, and overall feel of the yarns I buy. I like to 
         browse local yarn stores and feel how different yarns feel, how their dyes appear in person, and
@@ -40,8 +55,10 @@
 </div>
 
 <hr class: "custom-divider"> 
-   
-    <h2>My Top 5 Favorite Yarns</h2> 
+
+<!-- links -->
+    
+<h2>My Top 5 Favorite Yarns</h2> 
     <div class = "container2">
             <div class = "box1">    
                 <p><a href="https://www.garnstudio.com/yarn.php?show=drops-lima&cid=17">Drops Lima</a></p>
@@ -64,5 +81,23 @@
              <img class = "rounded-image2" src="softsilkmohair.webp" alt="Picture of KFO Soft Silk Mohair Yarn.">
             </div>
     </div>
-</body>
+
+<hr class: "custom-divider">
+
+<!-- row counter -->
+
+<h2>Row Counter</h2>
+<p>I always find counting out my rows to be such a hassle when I'm working on a project. I've used various methods for keeping it organized, but I thought making a digital counter would be very helpful! So, below is an interactive row counter.</p>
+
+<!-- button -->
+
+<div class = "flex-middle"> 
+<div class = "button">
+    <button type = "button">Increase Row</button>
+    Number of Rows: <span id = "counter">0</span>
+</div>
+<script src="project.js"></script>
+</div>
+
+</body> 
 </html>
